@@ -12,6 +12,15 @@ html {
 
 }
 
+.div1
+
+{
+box-shadow: 10px 10px 5px #888888;
+border:1px solid;
+border-radius:25px;
+border-color: #c0c0c0;
+}
+
 body {
   margin: 0;
 }
@@ -116,7 +125,7 @@ select,
 textarea {
   margin: 0;
   font: inherit;
-  color: inherit;
+  color: #fff;
 }
 button {
   overflow: visible;
@@ -124,6 +133,7 @@ button {
 button,
 select {
   text-transform: none;
+    color: #fff;
 }
 button,
 html input[type="button"],
@@ -140,6 +150,7 @@ button::-moz-focus-inner,
 input::-moz-focus-inner {
   padding: 0;
   border: 0;
+  color: #fff;
 }
 input {
   line-height: normal;
@@ -195,11 +206,14 @@ th {
   }
   a,
   a:visited {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #fff
   }
   a[href]:after {
     content: " (" attr(href) ")";
+    color: #fff
   }
+
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
