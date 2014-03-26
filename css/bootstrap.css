@@ -13,13 +13,21 @@ html {
 }
 
 .div1
-
 {
 box-shadow: 10px 10px 5px #888888;
 border:1px solid;
 border-radius:25px;
 border-color: #c0c0c0;
 }
+
+.div2{
+  margin-left:auto;
+  margin-right:auto;
+  padding: 20px;
+  border-color: #BCC6CC;
+  border: 1px;
+}
+
 
 body {
   margin: 0;
@@ -332,10 +340,11 @@ img {
   border-radius: 6px;
 }
 .img-thumbnail {
+  margin-left:auto;
+  margin-right:auto;
   display: inline-block;
   max-width: 100%;
-  height: auto;
-  padding: 4px;
+  padding: 10px;
   line-height: 1.428571429;
   background-color: #fff;
   border: 1px solid #ddd;
