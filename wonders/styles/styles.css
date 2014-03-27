@@ -1,0 +1,23 @@
+/*
+Theme Name: Brandon's First Theme
+Theme URI: http://mycanada.ca
+Description: Theme for My Name
+Author: Brandon
+Author URI: http://www.brandon.ca
+Copyright 2014
+*/
+
+body {background: #777 ; color: #999 ;font:16px Arial, Helvetica,sana-serif;}
+h1 { font: 2em/1 "Segoe UI", Arial< sans-serif; color:#111;}
+h2 { font: 1.5em/1 "Segoe UI", Arial< sans-serif;}
+h3 { font: 1.2em/1 "Segoe UI", Arial< sans-serif;}
+p { font: 1em/1.25 Calibri; color:#713;}
+/* Hyperlink Styles */
+a {color:#ccc; text-decoration:none;}
+/* This changes the colour of the links
+and takes off the default underline.
+see pages 258-259 and 272-272
+*/
+a: hover { color:#888; text-decoration:underline;}
+/* INTRODUCTION TO CLASSES */
+.highlight-text { color:#402; font: bold 1.2em/1 Calibri;}

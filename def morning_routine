@@ -1,0 +1,33 @@
+def morning_routine
+	snooze_alarm_clock
+	re-set_alarm_for_15_mins
+	wake_up
+	turn_on_light
+	shower
+	shave
+	dry_off_from_shower
+	get_dressed
+	leave_apartment
+	purchase_starbucks
+	have_cigarette with coffee
+end
+
+def wakeup
+
+	phone = Phone.new
+	Brandon = Person.new
+	brandon.get_up
+	brandon.go_back_to_sleep
+  brandon.get_up
+  brandon.check(phone)
+
+  cigarette = Cigarette.pack
+  coffee = Coffee.buy
+  brandon.drink(coffee)
+  brandon.smoke(cigarette)
+  
+  school_location = School_location.CodeCore
+  codecore_location = School.get_location
+  brandon.go_to(school_location)
+
+end

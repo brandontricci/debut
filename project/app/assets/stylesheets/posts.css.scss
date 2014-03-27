@@ -1,0 +1,33 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.pagination {
+  background: #fff;
+  height: 20px;
+  a, span, em {
+    padding: 0.2em 0.5em;
+    float: left;
+    margin-right: 3px;
+  }
+  .disabled {
+    display: none;
+  }
+  .current {
+    font-style: normal;
+    font-weight: bold;
+    color: #fff;
+    background: #008cba;
+    border: 2px solid #008cba;
+  }
+  a {
+    text-decoration: none;
+    color: #008cba;
+    border: 2px solid #008cba;
+    &:hover, &:focus {
+      color: #008cba;
+      font-weight: bold;
+      border-color: #008cba;
+    }
+  }
+}

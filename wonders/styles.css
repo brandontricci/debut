@@ -1,0 +1,11 @@
+/*
+Theme Name: Brandon's First Theme
+Theme URI: http://mycanada.ca
+Description: Theme for My Name
+Author: Brandon
+Author URI: http://www.brandon.ca
+Copyright 2014
+*/
+
+body { background: #777; color: #999; font: 16px Arial, Helvetica, sans-serif; }
+h1 { font: 2em/1 "Segoe UI", Arial, sans-serif;}

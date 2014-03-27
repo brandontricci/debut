@@ -1,0 +1,1 @@
+arr = ["Hi", "How", "are", "you?"].count.join

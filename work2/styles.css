@@ -1,0 +1,94 @@
+/* Rollover NavBar */
+@import url("reset.css");
+
+html { height:100%;}
+body { height:100%; color: #333; font-family: Oswald, Arial, sans-serif; padding: 0px; margin: 0px auto; }
+
+nav ul {
+			margin: 0px;
+			padding: 0px;
+			background-color: #c33;
+			float: left;
+			width: 100%;
+}
+
+body {color: #333; font-family: Oswald, Arail, sans-serif; margin: 0px auto; }
+#parallax h1 { font-size: 2em; line-height: 1; margin-bottom: 1em; }
+#parallax p { line-height: 1.5; margin-bottom: 1em; }
+#parallax section { border-bottom: 4px solid #fff; padding: 50px 75px; min-height: 100%; width: 100%;}
+
+#parallax #header {background: #39f; color: #fff; }
+#parallax #about {background: url(../assets/dark_stripes.png) repeat; color: #fff;}
+#parallax #photo { color: #fff; background: url(../assets/background-image.jpg) no-repeat center center fixed; }
+#photo .box {background-color:rgba(51,153,255,0.7); padding:25px; width:600px; border: 2px solid rgb{51,153,255}
+
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#parallax #footer { background: #39f; color: #fff;}
+
+nav li { display:inline;}
+nav li a {
+			padding: 02em 1em;
+			background-color: rgb(0,112,66);
+			color: #fff;
+			text-decoration: none;
+			float: left;
+			border-right: 1px solid #fff;
+}
+nav li a:hover {
+			background-color: #000
+			color: #c33;
+			text-decoration: none;
+}
+table {
+	border-collapse: collapse;
+	border: 1px solid #888;
+	border-spacing: 0px;
+	margin: 0px; 
+	padding: 10px; 
+	font: 8pt Verdana;
+	display: table;
+}
+
+td {border:1px solid #888;}
+
+th {background-color: #000; color: #fff}
+th, td {padding: 4px 8px;}
+
+.odd {background-color: #fff}
+.even {background-color: #777}
+.abbreviation {text-align: center;}
+.population {text-align: right;}
+
+section {
+	background: #fff;
+	padding: 5px 10px;
+	margin: 10px auto; 
+	width: 560px;
+	border: 1px solid #ccc;
+}
+
+#north {background: url(../assets/backgrounds/hudson-bay.jpg) no-repeat;}
+
+#north article {
+	opacity: 0.7;
+	filter:alpha(opacity=70);
+  -webkit-border-radius: 3em;
+  -moz-border-radius: 3em;
+  border-radius: 3em;
+  background: #ddd;
+  padding: 1em 2em;
+  margin: 1em auto;
+  width: 900px;
+  border: 1px solid #999;
+}
+
+@media (min-width: 980px) {#wrapper {background: red;}}
+@media (min-width: 481px) and (max-width: 980px) {#wrapper {background: yellow;}}
+@media (max-width: 480px) {#wrapper {background: blue;}}
+
+}
