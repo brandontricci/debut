@@ -82,8 +82,10 @@ body {
 }
 
 .fill {
-  margin: auto;
-  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
 /* Social Icons Styles */
