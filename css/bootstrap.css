@@ -12,6 +12,10 @@ html {
 
 }
 
+.padding {
+padding-left: 30px
+}
+
 .div1
 {
 box-shadow: 10px 10px 5px #888888;
