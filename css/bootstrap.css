@@ -763,10 +763,8 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto; 
+  width: 360px;
 }
 @media (min-width: 768px) {
   .container {
@@ -5679,9 +5677,10 @@ button.close {
   clear: both;
 }
 .center-block {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+ float: left; 
+ height: 100px; 
+ margin: 0 10px; 
+ width: 100px;
 }
 .pull-right {
   float: right !important;
