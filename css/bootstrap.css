@@ -52,6 +52,15 @@ border-color: #c0c0c0;
   border: 1px;
 }
 
+.div3 {
+
+  border-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  padding: 20px;
+  text-align:center
+}
 
 body {
   margin: 0;
