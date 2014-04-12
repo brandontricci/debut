@@ -12,6 +12,10 @@ html {
 
 }
 
+.div4 {
+display: inline-block;
+}
+
 .padding {
 
   padding-left: 25px;
@@ -423,7 +427,7 @@ h6,
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
+  color: #000000;
 }
 h1 small,
 h2 small,
@@ -1710,6 +1714,7 @@ label {
   display: inline-block;
   margin-bottom: 5px;
   font-weight: bold;
+  color: #000000;
 }
 input[type="search"] {
   -webkit-box-sizing: border-box;
@@ -1819,6 +1824,7 @@ input[type="date"] {
 .checkbox input[type="checkbox"],
 .checkbox-inline input[type="checkbox"] {
   float: left;
+
   margin-left: -20px;
 }
 .radio + .radio,
