@@ -13,7 +13,9 @@ html {
 }
 
 .div4 {
+  float: left;
 display: inline-block;
+padding-top: 90px;
 }
 
 .padding {
@@ -34,6 +36,21 @@ display: inline-block;
 .padding3 {
 
  padding-left: 10px; 
+}
+
+.padding4 {
+
+ padding-left: 40px; 
+}
+
+.padding5 {
+
+ padding-left: 70px; 
+}
+
+.padding6 {
+
+ padding-top: 20px; 
 }
 
 .border {

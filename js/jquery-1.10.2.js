@@ -36,9 +36,9 @@ u[o]&&(delete u[o],c?delete n[l]:typeof n.removeAttribute!==i?n.removeAttribute(
 			this.$paypalForm = this.$element.find( "#paypal-form" ); // PayPal form
 			
 			
-			this.currency = "&euro;"; // HTML entity of the currency to be displayed in the layout
-			this.currencyString = "€"; // Currency symbol as textual string
-			this.paypalCurrency = "EUR"; // PayPal's currency code
+			this.currency = "$"; // HTML entity of the currency to be displayed in the layout
+			this.currencyString = "$"; // Currency symbol as textual string
+			this.paypalCurrency = "CDN"; // PayPal's currency code
 			this.paypalBusinessEmail = "yourbusiness@email.com"; // Your Business PayPal's account email address
 			this.paypalURL = "https://www.sandbox.paypal.com/cgi-bin/webscr"; // The URL of the PayPal's form
 			
