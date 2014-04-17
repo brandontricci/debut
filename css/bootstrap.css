@@ -30,7 +30,7 @@ padding-top: 90px;
 
 .padding2 {
 
- padding-left: 110px; 
+ padding-left: 60px; 
 }
 
 .padding3 {
@@ -3094,18 +3094,14 @@ input[type="button"].btn-block {
   z-index: 1000;
   display: none;
   float: left;
-  min-width: 160px;
+  min-width: 400px;
   padding: 5px 0;
   margin: 2px 0 0;
   font-size: 14px;
   list-style: none;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, .15);
-  border-radius: 4px;
-  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  background-color: none;
+  background-clip: none;
+  
 }
 .dropdown-menu.pull-right {
   right: 0;
