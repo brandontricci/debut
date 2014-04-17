@@ -363,6 +363,7 @@ body#checkout-page #site-info {
 
 #checkout-order-form label {
   display: block;
+  color: #000000;
   font-weight: bold;
   margin-bottom: 0.3em;
   text-align: left;
@@ -371,6 +372,7 @@ body#checkout-page #site-info {
 #checkout-order-form input[type="text"] {
   width: 200px;
   display: block;
+  color: #000000;
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;

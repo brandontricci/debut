@@ -137,8 +137,8 @@
                     <label for="country">Country</label>
                     <select name="country" id="country" data-type="string" data-message="This field cannot be empty">
                         <option value="">Select</option>
+                        <option value="CAD">Canada</option>
                         <option value="US">USA</option>
-                        <option value="IT">Italy</option>
                     </select>
                 </div>
             </fieldset>
@@ -172,14 +172,13 @@
                 <div>
                     <label for="scountry">Country</label>
                     <select name="scountry" id="scountry" data-type="string" data-message="This field cannot be empty">
-                        <option value="">Select</option>
+                        <option value="CAD">Canada</option>
                         <option value="US">USA</option>
-                        <option value="IT">Italy</option>
                     </select>
                 </div>
             </fieldset>
             
-            <p><input type="submit" id="submit-order" value="Submit" class="btn" /></p>
+            <p><input type="submit" id="submit-order" value="Submit" class="btn" action="submit" method="put"/></p>
          
          </form>
     </div>

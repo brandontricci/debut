@@ -328,6 +328,7 @@ th {
     border-top-color: #000 !important;
   }
   .label {
+    color: #000000;
     border: 1px solid #000;
   }
   .table {
@@ -4353,7 +4354,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-size: 75%;
   font-weight: bold;
   line-height: 1;
-  color: #fff;
+  color: #000000;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
@@ -4361,7 +4362,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .label[href]:hover,
 .label[href]:focus {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   cursor: pointer;
 }
