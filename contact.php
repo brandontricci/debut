@@ -15,13 +15,6 @@
     <!-- Add custom CSS here -->
     <link href="css/modern-business.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="icon" href="http://debutproducts.com/kennedy/wp-content/uploads/2013/04/favicon.png" type="image/png"/>
-
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/modern-business.js"></script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-   <script type="text/javascript" src="js/jquery.shop.js"></script>
     
 </head>
 
@@ -66,7 +59,7 @@
       <div class="row">
       
         <div class="col-lg-12">
-          <h1 class="page-header">Contact&nbsp;&nbsp;<small>We'd Love to Hear From You!</small></h1>
+          <h1 class="page-header">Find a Retailer&nbsp;&nbsp;<small>We'd Love to Hear From You!</small></h1>
           <ol class="breadcrumb">
             <li><a href="index.html">Home</a></li>
             <li class="active">Contact</li>
@@ -86,7 +79,7 @@
           <h3>Let's Get In Touch!</h3>
           <p>Are you a retailer? Do you want to carry these fabulous lines of product in your store? please send us a message!</p>
     
-            <form name="contactform" role="form" method="post" action="contact-form-submission.php">
+            <form role="form" name="cf_email" method="POST" action="contact-form-submission.php">
               <div class="row">
                 <div class="form-group col-lg-4">
                   <label for="input1">Name</label>

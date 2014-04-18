@@ -1,10 +1,11 @@
 <?php
 /* Set e-mail recipient */
-$myemail = "info@debutproducts.com";
+$myemail = "brandonricci@shaw.ca";
 
 /* Check all form inputs using check_input function */
 $name = check_input($_POST['inputName'], "Your Name");
 $email = check_input($_POST['inputEmail'], "Your E-mail Address");
+$phone = check_input($_POST['contact_phone'], "Your Phone Number");
 $subject = check_input($_POST['inputSubject'], "Message Subject");
 $message = check_input($_POST['inputMessage'], "Your Message");
 
@@ -19,7 +20,7 @@ $subject = "Someone has sent you a message";
 
 $message = "
 
-Someone has sent you a message using your contac form:
+Someone has sent you a message using your contact form:
 
 Name: $name
 Email: $email
@@ -31,7 +32,7 @@ $message
 ";
 
 /* Send the message using mail() function */
-mail($myemail, $subject, $message);
+mail($myemail, $subject, $phone, $message);
 
 /* Redirect visitor to the thank you page */
 header('Location: http://debutproducts.com/address-of-confirmation-page.html');

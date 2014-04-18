@@ -4,13 +4,13 @@
 if (!isset($_POST['save']) || $_POST['save'] != 'contact') {
     header('Location: contact.php'); exit;
 }
-	
 // get the posted data
-$name = $_POST['contact_name'];
-$email_address = $_POST['contact_email'];
-$phone = $_POST['contact_phone'];
-$message = $_POST['contact_message'];
-	
+$name = $_POST['contactform'];
+$email_address = $_POST['contactform'];
+$phone = $_POST['contactform'];
+$message = $_POST['contactform'];
+$field_email = $_POST['contactform'];
+
 // check that a name was entered
 if (empty($name))
     $error = 'You must enter your name.';
@@ -43,7 +43,7 @@ $email_content .= "Message:\n\n$message";
 	
 // send the email
 //ENTER YOUR INFORMATION BELOW FOR THE FORM TO WORK!
-mail ('YOUR-EMAIL-ADDRESS@YOUR-DOMAIN.com', 'YOUR WEBSITE NAME - Contact Form Submission', $email_content, $headers);
+mail ('brandonricci@shaw.ca', 'Debut Products - Contact Form Submission', $email_content, $headers);
 	
 // send the user back to the form
 header('Location: contact.html?s='.urlencode('Thank you for your message.')); exit;
