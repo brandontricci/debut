@@ -370,7 +370,7 @@ u[o]&&(delete u[o],c?delete n[l]:typeof n.removeAttribute!==i?n.removeAttribute(
 		 
 		
 		_formatNumber: function( num, places ) {
-			var n = num.toFixed( places );
+			var n = num.toFixed(2);
 			return n;
 		},
 		
@@ -466,19 +466,19 @@ u[o]&&(delete u[o],c?delete n[l]:typeof n.removeAttribute!==i?n.removeAttribute(
 		
 		_calculateShipping: function( qty ) {
 			var shipping = 0;
-			if( qty >= 6 ) {
-				shipping = 10;
+			if( qty >= 1 ) {
+				shipping = 8;
 			}
 			if( qty >= 12 && qty <= 30 ) {
-				shipping = 20;	
+				shipping = 12;	
 			}
 			
 			if( qty >= 30 && qty <= 60 ) {
-				shipping = 30;	
+				shipping = 22;	
 			}
 			
 			if( qty > 60 ) {
-				shipping = 0;
+				shipping = 45;
 			}
 			
 			return shipping;

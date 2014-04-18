@@ -5,11 +5,11 @@ if (!isset($_POST['save']) || $_POST['save'] != 'contact') {
     header('Location: contact.php'); exit;
 }
 // get the posted data
-$name = $_POST['contactform'];
-$email_address = $_POST['contactform'];
-$phone = $_POST['contactform'];
-$message = $_POST['contactform'];
-$field_email = $_POST['contactform'];
+$name = $_POST['cf_email'];
+$email_address = $_POST['contact_email'];
+$phone = $_POST['contact_phone'];
+$message = $_POST['contact_message'];
+$field_email = $_POST['cf_email'];
 
 // check that a name was entered
 if (empty($name))
