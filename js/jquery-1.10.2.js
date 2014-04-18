@@ -16,7 +16,7 @@ u[o]&&(delete u[o],c?delete n[l]:typeof n.removeAttribute!==i?n.removeAttribute(
 		
 		    // Properties
 		
-			this.cartPrefix = "winery-"; // Prefix string to be prepended to the cart's name in the session storage
+			this.cartPrefix = "debut-"; // Prefix string to be prepended to the cart's name in the session storage
 			this.cartName = this.cartPrefix + "cart"; // Cart name in the session storage
 			this.shippingRates = this.cartPrefix + "shipping-rates"; // Shipping rates key in the session storage
 			this.total = this.cartPrefix + "total"; // Total key in the session storage
@@ -39,7 +39,7 @@ u[o]&&(delete u[o],c?delete n[l]:typeof n.removeAttribute!==i?n.removeAttribute(
 			this.currency = "$"; // HTML entity of the currency to be displayed in the layout
 			this.currencyString = "$"; // Currency symbol as textual string
 			this.paypalCurrency = "CDN"; // PayPal's currency code
-			this.paypalBusinessEmail = "yourbusiness@email.com"; // Your Business PayPal's account email address
+			this.paypalBusinessEmail = "brandonricci@shaw.ca"; // Your Business PayPal's account email address
 			this.paypalURL = "https://www.sandbox.paypal.com/cgi-bin/webscr"; // The URL of the PayPal's form
 			
 			// Object containing patterns for form validation
