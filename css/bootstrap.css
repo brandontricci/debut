@@ -438,12 +438,10 @@ hr {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-h1,
 h2,
 h4,
 h5,
 h6,
-.h1,
 .h2,
 .h4,
 .h5,
@@ -453,6 +451,7 @@ h6,
   line-height: 1.1;
   color: #000000;
 }
+.h1
 .h3 {
   font-family: inherit;
   font-weight: 400;
@@ -4113,7 +4112,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-inverse {
   background-color: #191919;
-  border-color: #999999;
 }
 .navbar-inverse .navbar-brand {
   color: #999999;
