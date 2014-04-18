@@ -20,37 +20,37 @@ padding-top: 90px;
 
 .padding {
 
-  padding-left: 25px;
+  padding-left: 0px;
 }
 
 .padding1 {
 
- padding-left: 13px; 
+ padding-left: 0px; 
 }
 
 .padding2 {
 
- padding-left: 60px; 
+ padding-left: 0px; 
 }
 
 .padding3 {
 
- padding-left: 10px; 
+ padding-left: 0px; 
 }
 
 .padding4 {
 
- padding-left: 40px; 
+ padding-left: 0px; 
 }
 
 .padding5 {
 
- padding-left: 70px; 
+ padding-left: 0px; 
 }
 
 .padding6 {
 
- padding-top: 20px; 
+ padding-top: 0px; 
 }
 
 .border {
@@ -63,7 +63,7 @@ border-color: #c0c0c0;
 {
 box-shadow: 10px 10px 5px #888888;
 border:1px solid;
-border-radius:25px;
+border-radius:0px;
 border-color: #c0c0c0;
 }
 
@@ -71,8 +71,8 @@ border-color: #c0c0c0;
   border-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20px;
-  padding: 20px;
+  padding-top: 0px;
+  padding: 0px;
   border-color: #BCC6CC;
   border: 1px;
 }
@@ -83,7 +83,7 @@ border-color: #c0c0c0;
   margin-left: auto;
   margin-right: auto;
   padding-top: 60px;
-  padding: 20px;
+  padding: 0px;
   text-align:center
 }
 @import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic");
@@ -4105,13 +4105,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default .navbar-link {
-  color: #999999;
+  color: #ffffff;
 }
 .navbar-default .navbar-link:hover {
   color: #ffffff;
 }
 .navbar-inverse {
   background-color: #191919;
+  border-color: #5E5E5E;
 }
 .navbar-inverse .navbar-brand {
   color: #999999;
@@ -4122,7 +4123,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
-  color: #999999;
+  color: #ffffff;
 }
 .navbar-inverse .navbar-nav > li > a {
   color: #999999;
@@ -4135,7 +4136,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #999999;
+  color: #ffffff;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
