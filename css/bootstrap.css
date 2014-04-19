@@ -100,9 +100,14 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 body {
-  margin: 0;
-}
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-color: #ffffff;
+  }
 article,
 aside,
 details,
@@ -446,14 +451,14 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;;
   font-weight: 400;
   line-height: 1.1;
   color: #000000;
 }
 .h1
 .h3 {
-  font-family: inherit;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;;
   font-weight: 400;
   line-height: 1.1;
   color: #ffffff;
@@ -4115,7 +4120,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-color: #5E5E5E;
 }
 .navbar-inverse .navbar-brand {
-  color: #999999;
+  color: #cccccc;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
@@ -4150,7 +4155,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #2B2B2B;
+  background-color: #4c4c4c;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #999999;

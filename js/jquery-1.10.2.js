@@ -467,7 +467,7 @@ u[o]&&(delete u[o],c?delete n[l]:typeof n.removeAttribute!==i?n.removeAttribute(
 		_calculateShipping: function( qty ) {
 			var shipping = 0;
 			if( qty >= 1 ) {
-				shipping = 8;
+				shipping = 2;
 			}
 			if( qty >= 12 && qty <= 30 ) {
 				shipping = 12;	
