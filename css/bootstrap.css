@@ -3742,6 +3742,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-header {
+    font-family: "ITCAvantGardePro-Bk";
     float: left;
   }
 }
@@ -3829,7 +3830,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   font-family: "ITCAvantGardePro-Bk";
-  padding: 15px 15px;
+   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
   height: 50px;
