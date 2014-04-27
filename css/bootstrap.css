@@ -13,9 +13,18 @@ html {
 }
 
 @font-face {
-    font-family: "Koblenz-Serial-Light-Regular.ttf";
-    src: url(fonts/Koblenz-Serial-Light-Regular.ttf) format("truetype");
+font-family: "Koblenz-Serial-Light-Regular";
+src: url(../fonts/Koblenz-Serial-Light-Regular.ttf);
 }
+
+.h1,
+.h2,
+.h3,
+
+{
+font-family: "Koblenz-Serial-Light-Regular";
+}
+
 
 
 .div4 { 
