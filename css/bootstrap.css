@@ -12,8 +12,14 @@ html {
 
 }
 
-.div4 {
-  float: left;
+@font-face {
+    font-family: "Koblenz-Serial-Light-Regular.ttf";
+    src: url(fonts/Koblenz-Serial-Light-Regular.ttf) format("truetype");
+}
+
+
+.div4 { 
+float: left;
 display: inline-block;
 padding-top: 90px;
 }
