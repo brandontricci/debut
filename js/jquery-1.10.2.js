@@ -40,7 +40,7 @@ u[o]&&(delete u[o],c?delete n[l]:typeof n.removeAttribute!==i?n.removeAttribute(
 			this.currencyString = "$"; // Currency symbol as textual string
 			this.paypalCurrency = "CDN"; // PayPal's currency code
 			this.paypalBusinessEmail = "brandonricci@shaw.ca"; // Your Business PayPal's account email address
-			this.paypalURL = "https://paypal.com"; // The URL of the PayPal's form
+			this.paypalURL = "mailto:brandonricci@shaw.ca"; // The URL of the PayPal's form
 			
 			// Object containing patterns for form validation
 			this.requiredFields = {
