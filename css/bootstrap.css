@@ -77,6 +77,11 @@ border-radius:0px;
 border-color: #c0c0c0;
 }
 
+.input-group[class*="col-"] {
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+
 .div2 {
   border-top: 50px;
   margin-left: auto;

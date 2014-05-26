@@ -87,49 +87,50 @@
               <thead>
                     <th scope="col">Item</th>
                     <th scope="col">Qty</th>
+                    <th scope="col">Please send us your order and we will send you back an invoice! with the price</th>
               </thead>
               <tbody>
+    
+</div>
+</div>
 
-                <form action="test.php" method="post"> 
-<table width="400" border="0" cellspacing="2" cellpadding="0"> 
-<tr> 
-<td width="29%" class="bodytext">Your name:</td> 
-<td width="71%"><input name="name" type="text" id="name" size="32"></td> 
-</tr> 
-<tr> 
-<td class="bodytext">Email address:</td> 
-<td><input name="email" type="text" id="email" size="32"></td> 
-</tr> 
-<tr> 
-<td class="bodytext">Comment:</td> 
-<td><textarea name="comment" cols="45" rows="6" id="comment" class="bodytext"></textarea></td> 
-</tr> 
-<tr> 
-<td class="bodytext"> </td> 
-<td align="left" valign="top"><input type="submit" name="Submit" value="Send"></td> 
-</tr> 
-</table> 
+<form class="form-horizontal" name="commentform" method="post" action="send_form_email.php">
+    <div class="form-group">
+        <label class="control-label col-md-4" for="first_name">First & Last Name</label>
+        <div class="col-md-6">
+            <input type="text" class="form-control" id="first_name" name="first_name" placeholder="First & Last Name"/>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-4" for="last_name">Phone Number</label>
+        <div class="col-md-6">
+            <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Phone Number"/>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-4" for="email">Email Address</label>
+        <div class="col-md-6 input-group">
+        <span class="input-group-addon">@</span>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Email Address"/>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-4" for="comment">Place your order here</label>
+        <div class="col-md-6">
+            <textarea rows="6" class="form-control" id="comments" name="comments" placeholder="Please copy/paste your order into here and the team at debut will process it and send you back an invoice! Make sure to adjust your quantities..."></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-6">
+            <button type="submit" value="Submit" class="btn btn-primary pull-right">Send</button>
+        </div>
+    </div>
 </form>
 
-                    <input type="submit" name="update" id="update-cart" class="btn btn-primary" value="Update Cart" />
-                </li>
-                <li>
-                    <input type="submit" name="delete" id="empty-cart" class="btn btn-primary" value="Empty Cart" />
-                </li>
-                <li>
-                    <FORM>
                     <input= VALUE="Back" onClick="history.go(-1);return true;" class="btn btn-primary">Continue Shopping</a></FORM>
-                </li>
-                <li>
-                </li>
-            </ul>
     </div>
-    
-    
-</div>
-</div>
-
 
         </div>
 </body>
+
 </html>
